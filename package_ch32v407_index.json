@@ -1,0 +1,85 @@
+{
+  "packages": [
+    {
+      "name": "medtty",
+      "maintainer": "medtty",
+      "websiteURL": "https://github.com/medtty/arduino_core_ch32v407",
+      "email": "",
+      "help": {
+        "online": "https://github.com/medtty/arduino_core_ch32v407"
+      },
+      "platforms": [
+        {
+          "name": "CH32V407 Arduino core",
+          "architecture": "ch32v407",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/medtty/arduino_core_ch32v407/zip/refs/tags/0.1.0",
+          "archiveFileName": "arduino_core_ch32v407-0.1.0.zip",
+          "checksum": "SHA-256:523F9C694159B7580169A10736E579C1EE942F8943EA8EEE9428C893ADC7206B",
+          "size": "1269611",
+          "help": {
+            "online": "https://github.com/medtty/arduino_core_ch32v407"
+          },
+          "boards": [
+            {
+              "name": "CH32V4x7"
+            },
+            {
+              "name": "CH32X035"
+            },
+            {
+              "name": "CH32V10x"
+            },
+            {
+              "name": "CH32V20x"
+            },
+            {
+              "name": "CH32V30x"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "medtty",
+              "name": "riscv-wch-gcc",
+              "version": "15.2.0"
+            },
+            {
+              "packager": "medtty",
+              "name": "openocd-wch",
+              "version": "2.9.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "riscv-wch-gcc",
+          "version": "15.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/medtty/board_manager_files/releases/download/riscv-wch-gcc-15.2.0/riscv-wch-gcc-15.2.0-windows.zip",
+              "archiveFileName": "riscv-wch-gcc-15.2.0-windows.zip",
+              "checksum": "SHA-256:34D9D99141C131FEB32E274B526352BEE5B429883861132A5A66C145E0D0D0E4",
+              "size": "238453577"
+            }
+          ]
+        },
+        {
+          "name": "openocd-wch",
+          "version": "2.9.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/medtty/board_manager_files/releases/download/openocd-wch-2.9.0/openocd-wch-2.9.0-windows.zip",
+              "archiveFileName": "openocd-wch-2.9.0-windows.zip",
+              "checksum": "SHA-256:D7284531DCDBF5549072C843788576B0061B62C4D8805A3984311D258517CC68",
+              "size": "11605618"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
