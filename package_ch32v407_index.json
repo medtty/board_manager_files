@@ -12,12 +12,12 @@
         {
           "name": "CH32V407 Arduino core",
           "architecture": "ch32v407",
-          "version": "0.1.0",
+          "version": "0.1.1",
           "category": "Contributed",
-          "url": "https://codeload.github.com/medtty/arduino_core_ch32v407/zip/refs/tags/0.1.0",
-          "archiveFileName": "arduino_core_ch32v407-0.1.0.zip",
-          "checksum": "SHA-256:523F9C694159B7580169A10736E579C1EE942F8943EA8EEE9428C893ADC7206B",
-          "size": "1269611",
+          "url": "https://codeload.github.com/medtty/arduino_core_ch32v407/zip/refs/tags/0.1.1",
+          "archiveFileName": "arduino_core_ch32v407-0.1.1.zip",
+          "checksum": "SHA-256:7BF022CE82B0AE352B035648C475895983092394D153FE6E4B7E51208CCBAAD9",
+          "size": "1269609",
           "help": {
             "online": "https://github.com/medtty/arduino_core_ch32v407"
           },
@@ -47,7 +47,7 @@
             {
               "packager": "medtty",
               "name": "openocd-wch",
-              "version": "2.9.0"
+              "version": "2.5.0"
             }
           ]
         }
@@ -63,12 +63,19 @@
               "archiveFileName": "riscv-wch-gcc-15.2.0-windows.zip",
               "checksum": "SHA-256:34D9D99141C131FEB32E274B526352BEE5B429883861132A5A66C145E0D0D0E4",
               "size": "238453577"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/medtty/board_manager_files/releases/download/riscv-wch-gcc-15.2.0/riscv-wch-gcc-15.2.0-linux-x86_64.tar.gz",
+              "archiveFileName": "riscv-wch-gcc-15.2.0-linux-x86_64.tar.gz",
+              "checksum": "SHA-256:D58478F91C134EDFB76D73CD82E9A7FFF4C74DD9369C591E92567757F4A153CF",
+              "size": "239741256"
             }
           ]
         },
         {
           "name": "openocd-wch",
-          "version": "2.9.0",
+          "version": "2.5.0",
           "systems": [
             {
               "host": "i686-mingw32",
@@ -76,6 +83,13 @@
               "archiveFileName": "openocd-wch-2.9.0-windows.zip",
               "checksum": "SHA-256:D7284531DCDBF5549072C843788576B0061B62C4D8805A3984311D258517CC68",
               "size": "11605618"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/medtty/board_manager_files/releases/download/openocd-wch-2.9.0/openocd-wch-2.10-linux-x86_64.tar.gz",
+              "archiveFileName": "openocd-wch-2.10-linux-x86_64.tar.gz",
+              "checksum": "SHA-256:F9F26697CCB402FA698E6F31E123C613241355A5207A896C5C430147E1EDBB2E",
+              "size": "2483725"
             }
           ]
         }
